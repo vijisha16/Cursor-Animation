@@ -15,11 +15,8 @@ function mouseStopped(){
     cursor.style.display = "none";
 }
 clearTimeout(timeout);
-timeout = setTimeout(mouseStopped, 1000);
+timeout = setTimeout(mouseStopped, 2000);
 });
-
-
-
 // Cursor effects on mouseout
 document.addEventListener("mouseout", () => {
     cursor.style.display = "none";
